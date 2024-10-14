@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FilosoQuiz</string>
+    <string name="str_racionalismo0">🧠 Racionalismo</string>
+    <string name="str_racionalismo1">O Racionalismo atribui à razão o papel central na obtenção do conhecimento. Surgido no século XVII, especialmente com René Descartes, defende que a razão é a única fonte confiável para entender a realidade.</string>
+    <string name="str_racionalismo2">Razão como Fonte: O conhecimento verdadeiro é alcançado pela razão, em oposição à experiência sensorial, considerada falha.</string>
+    <string name="str_racionalismo3">Método Dedutivo: O Racionalismo utiliza a dedução, partindo de princípios gerais para conclusões específicas, como no método científico de Descartes.</string>
+    <string name="str_racionalismo4">Ideias Inatas: Racionalistas acreditam que muitas ideias são inatas, presentes na mente desde o nascimento, contrastando com o empirismo.</string>
+    <string name="str_racionalismo5">René Descartes (1596–1650): Pai da filosofia moderna, cuja máxima \"Penso, logo existo"\ inspira pensadores até hoje.</string>
+
+    <string name="str_empirismo0">👀 Empirismo</string>
+    <string name="str_empirismo1">O empirismo sustenta que o conhecimento se origina da experiência sensorial. Enfatiza a importância das percepções como base do saber, em oposição a conceitos inatos.</string>
+    <string name="str_empirismo2">Experiência Sensível: Todo conhecimento deve ser fundamentado em experiências diretas e observações do mundo, rejeitando ideias inatas.</string>
+    <string name="str_empirismo3">Método Científico: O empirismo é fundamental para o método científico, onde teorias devem ser testadas e validadas através de evidências empíricas.</string>
+    <string name="str_empirismo4">Crítica ao Racionalismo: O empirismo argumenta que a razão deve organizar dados obtidos pela experiência, em contraste com o racionalismo.</string>
+    <string name="str_empirismo5">David Hume (1711–1776): O grande empirista que nos ensinou que \"a razão é apenas a escrava das paixões"\.</string>
+
+    <string name="resultado_empirista">Você é um <b>Empirista</b>! Seu conhecimento se baseia na experiência e na observação. Você credita que a verdade é encontrada através da interação com o mundo.</string>
+
+    <string name="resultado_racionalista">Você é um <b>Racionalista</b>! Para você, a razão é a principal fonte de conhecimento. Você acredita que a lógica e a dedução são essenciais para entender a realidade e alcançar a verdade.</string>
+
+    <string name="resultado_aristotelico">Você é um <b>Aristotélico</b>! Você atingiu a teoria do meio termo de Aristóteles ao acertar todas as respostas neutras. Isso demonstra sua habilidade em equilibrar razão e experiência!</string>
+
+</resources>
