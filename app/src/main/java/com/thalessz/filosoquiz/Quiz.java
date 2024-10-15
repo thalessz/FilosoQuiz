@@ -75,96 +75,77 @@ public class Quiz extends AppCompatActivity {
         }
     }
 
-    private void iniciarQuestoes(){
+    private void iniciarQuestoes() {
         perguntas.add(new Pergunta(
-                "1. Tente se imaginar nesta situação: Você acabou de brigar com seus pais e está se perguntando a real razão da briga ter começado. Ao tentar conversar com eles, você é pego em uma raiva descontrolada. Neste contexto, você:",
-                new String[]{"A) Sentiria tal raiva e expressaria para seus pais mesmo que de forma controlada",
-                        "B) Buscaria o real motivo para aquela raiva inexplicável para que não se repetisse",
-                        "C) Tentaria, com base em outros ataques de raiva na sua vida, buscar uma melhor forma de pensar e agir"},
-                2,
-                1,
-                0));
+                "1. Imagine que você acabou de brigar com seus pais e agora está se perguntando sobre a real razão da briga. Ao tentar conversar com eles, você é tomado por uma raiva descontrolada. Neste contexto, como você lidaria com a situação?",
+                new String[]{"A) Tentaria, com base em outros ataques de raiva na sua vida, buscar uma melhor forma de pensar e agir.",
+                        "B) Sentiria tal raiva e expressaria para seus pais, mas procuraria entender o motivo por trás dela.",
+                        "C) Buscaria o real motivo para aquela raiva inexplicável, analisando os eventos passados."},
+                2, 1, 0));
 
         perguntas.add(new Pergunta(
-                "2. Como você explica o funcionamento de conceitos como 'justiça' ou 'moralidade'?",
-                new String[]{"A) Estes conceitos estão dentro de nós",
-                        "B) Estes conceitos vêm da nossa interação com o mundo",
-                        "C) Estes conceitos são moldados de acordo com acontecimentos anteriores"},
-                0,
-                1,
-                2));
+                "2. Quando pensamos em conceitos como 'justiça' ou 'moralidade', como você acredita que eles se desenvolvem?",
+                new String[]{"A) Estes conceitos são moldados de acordo com acontecimentos anteriores e experiências vividas.",
+                        "B) Estes conceitos são universais e inatos, parte da nossa natureza humana.",
+                        "C) Estes conceitos vêm de nossos ideais criados com lógica e interação com o mundo."},
+                0, 1, 2));
 
         perguntas.add(new Pergunta(
-                "3. Você acha que devemos aprender sobre o mundo:",
-                new String[]{"A) Usando a lógica e raciocínio dedutivo",
-                        "B) Através de reflexão e experiência prática",
-                        "C) Experimentando e observando o mundo ao nosso redor"},
-                0,
-                1,
-                2));
+                "3. Suponha que você precise mudar sua opinião sobre um tema importante. O que normalmente te convence a fazer essa mudança?",
+                new String[]{"A) Evidências concretas e a oportunidade de experimentar algo novo.",
+                        "B) Uma boa argumentação lógica e clara, que explique os pontos-chave do tema.",
+                        "C) Exemplos práticos e novas informações que mostrem diferentes perspectivas."},
+                2, 1, 0));
 
         perguntas.add(new Pergunta(
-                "4. Como você acredita que o conhecimento se desenvolve ao longo da vida?",
-                new String[]{"A) Através da lógica, reflexão e compreensão dos princípios fundamentais",
-                        "B) Através de uma combinação de experiências e aprendizados teóricos",
-                        "C) Através da vivência e contato com novas experiências"},
-                0,
-                1,
-                2));
+                "4. Quando você se encontra em um impasse emocional, como você geralmente lida com a situação?",
+                new String[]{"A) Me concentro em como as emoções estão se manifestando, e busco entender-las antes de tirar uma conclusão.",
+                        "B) Oscilo entre o sentir e refletir, tentando equilibrar o que estou vivendo com o que faz sentido para mim.",
+                        "C) Tento organizar meus pensamentos e entender a causa por trás dos sentimentos, buscando uma solução lógica."},
+                2, 1, 0));
 
         perguntas.add(new Pergunta(
-                "5. Em relação à sua aprendizagem, você:",
-                new String[]{"A) Tenta equilibrar experiência e razão",
-                        "B) Prefere pôr a mão na massa e fazer experimentos",
-                        "C) Prefere usar a lógica e raciocínio em primeiro lugar"},
-                2,
-                1,
-                0));
+                "5. Em relação à sua aprendizagem, qual abordagem você prefere adotar?",
+                new String[]{"A) Prefere usar da lógica e raciocínio em primeiro lugar, antes de agir.",
+                        "B) Tenta equilibrar experiência e razão, usando ambos os aspectos para aprender.",
+                        "C) Prefere pôr a mão na massa e fazer experimentos para entender melhor."},
+                0, 2, 1));
 
         perguntas.add(new Pergunta(
-                "6. Quando pedem minha opinião sobre algo eu:",
-                new String[]{"A) Tento ajudar equilibrando experiências passadas e o que penso ser melhor hoje",
-                        "B) Busco me basear em coisas que vivenciei e o que extraí delas",
-                        "C) Tento pensar de forma racional, evitando me prender a experiências passadas"},
-                2,
-                1,
-                0));
+                "6. Quando alguém pede sua opinião sobre um assunto, como você geralmente responde?",
+                new String[]{"A) Busco me basear em coisas que vivenciei e o que extraí delas, mas também considero novas informações.",
+                        "B) Tento ajudar equilibrando experiências passadas e o que penso ser melhor hoje, considerando várias perspectivas.",
+                        "C) Tento pensar de forma racional, evitando me prender a experiências passadas e focando no presente."},
+                2, 1, 0));
 
         perguntas.add(new Pergunta(
-                "7. Quando te pedem para fazer algo que você não faz há um tempo você:",
-                new String[]{"A) Tenta fazer com base em experiências e resultados passados",
-                        "B) Tenta usar a lógica para achar uma forma de fazer",
-                        "C) Tenta usar tanto experiências passadas quanto a lógica para fazer o que foi pedido"},
-                2,
-                1,
-                0));
+                "7. Ao planejar algo importante, como você decide o caminho a seguir?",
+                new String[]{"A) Gosto de começar a agir e ir ajustando meu plano durante o processo de acordo com os resultados do caminho.",
+                        "B) Tendo a avaliar todas as opções, considerando os prós e contras de cada uma delas.",
+                        "C) Tento criar uma boa estratégia deixando espaços para modificações durante o processo."},
+                2, 0, 1));
 
         perguntas.add(new Pergunta(
-                "8. Como você considera que o conhecimento é adquirido?",
-                new String[]{"A) O conhecimento é adquirido principalmente através das experiências vividas e da observação do mundo ao nosso redor.",
-                        "B) O conhecimento pode ser adquirido tanto por meio da experiência quanto pela reflexão teórica; ambos têm seu papel.",
-                        "C) O conhecimento é inato e deve ser acessado através da razão."},
-                2,
-                1,
-                0));
+                "8. Ao descobrir uma nova tecnologia, como você tenta aprender a usá-la?",
+                new String[]{"A) Experimento ela diretamente e vou tentando descobrir como funciona durante o uso.",
+                        "B) Costumo tentar entender o princípio de seu funcionamento antes de começar a usá-la, lendo documentação e tutoriais.",
+                        "C) Leio um pouco sobre ela, mas também vou testando pra ver como funciona na prática."},
+                2, 0, 1));
 
         perguntas.add(new Pergunta(
-                "9. Qual a relação entre experiência e verdade no processo de conhecimento?",
-                new String[]{"A) A verdade é estabelecida pela verificação empírica; somente aquilo que pode ser observado e testado é considerado verdadeiro.",
-                        "B) A relação entre experiência e verdade é complexa; a experiência pode ajudar a validar teorias, mas não garante a verdade absoluta.",
-                        "C) A verdade deve ser alcançada através da razão; pois as experiências podem ser enganosas."},
-                2,
-                1,
-                0));
+                "9. Quando se trata de entender a natureza da realidade, como você acredita que devemos abordar a busca pelo conhecimento?",
+                new String[]{"A) Usando a razão e a lógica para deduzir princípios fundamentais, independentemente da experiência direta.",
+                        "B) Através da observação e experimentação, verificando hipóteses e teorias por meio de evidências empíricas.",
+                        "C) Considerando uma combinação de experiências práticas e reflexão teórica, buscando um equilíbrio entre ambos."},
+                0, 2, 1));
 
         perguntas.add(new Pergunta(
-                "10. Um objeto é solto no ar. Você sabe que ele irá cair em direção ao chão por causa:",
-                new String[]{"A) Da lógica da física onde a gravidade atrai os objetos para o chão",
-                        "B) Da lógica e de experiências anteriores que você viu objetos caírem em direção ao chão",
-                        "C) De experiências anteriores onde todos os objetos soltos eram atraídos para o chão"},
-                0,
-                1,
-                2));
+        "10. Como você costuma refletir sobre o fim de uma relação?",
+                new String[]{"A) Acabo voltando em situações específicas que marcaram o relacionamento, revendo o que vivi e como isso afetou tudo.",
+                        "B) Me pego refletindo sobre como certas escolhas e decisões influenciaram o desfecho, gosto de examinar as razões por trás de cada acontecimento.",
+                        "C) Tendo a oscilar entre lembrar os momentos bons e ruins, enquanto tento encontrar um equilíbrio entre o que senti e o que realmente aconteceu."},
+                1, 0, 2));
+
     }
 
 

@@ -14,10 +14,15 @@
     <string name="str_empirismo4">Crítica ao Racionalismo: O empirismo argumenta que a razão deve organizar dados obtidos pela experiência, em contraste com o racionalismo.</string>
     <string name="str_empirismo5">David Hume (1711–1776): O grande empirista que nos ensinou que \"a razão é apenas a escrava das paixões"\.</string>
 
-    <string name="resultado_empirista">Você é um <b>Empirista</b>! Seu conhecimento se baseia na experiência e na observação. Você credita que a verdade é encontrada através da interação com o mundo.</string>
+    <string name="resultado_empirista">
+    <b>Parabéns, você é um Empirista!</b> Seu caminho para o conhecimento é guiado pela experiência e pela observação. Você acredita que a verdade se revela através da interação direta com o mundo, e cada momento se torna uma lição valiosa para você!
+    </string>
 
-    <string name="resultado_racionalista">Você é um <b>Racionalista</b>! Para você, a razão é a principal fonte de conhecimento. Você acredita que a lógica e a dedução são essenciais para entender a realidade e alcançar a verdade.</string>
+    <string name="resultado_racionalista">
+    <b>Parabéns, você é um Racionalista!</b> Assim como para "Renato Cartésio", para você, a razão é a luz que guia seu entendimento do mundo. A lógica e a dedução são as chaves para desvendar os mistérios da existência e alcançar o conhecimento verdadeiro.
+    </string>
 
-    <string name="resultado_aristotelico">Você é um <b>Aristotélico</b>! Você atingiu a teoria do meio termo de Aristóteles ao acertar todas as respostas neutras. Isso demonstra sua habilidade em equilibrar razão e experiência!</string>
+    <string name="resultado_aristotelico">
+    <b>Parabéns, você é um Aristotélico!</b> Você alcançou o meio termo perfeito, equilibrando a sabedoria da razão com as experiências que podem vir de nossos sentidos. Isso demonstra sua habilidade em encontrar o caminho do meio, onde a sabedoria guia suas decisões.</string>
 
 </resources>

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         txt4 = findViewById(R.id.txt4);
         txt5 = findViewById(R.id.txt5);
         imgFilosofo = findViewById(R.id.imgFilosofo);
-
+        txt1.setText("");
         loadRacionalismo();
 
         btnEmpirismo.setOnClickListener(v->loadEmpirismo());

@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="4dp"
         android:background="@drawable/fundo_botao"
         android:fontFamily="@font/inknut_antiqua_medium"
         android:text="Racionalismo"
@@ -80,7 +80,7 @@
         android:id="@+id/btnEmpirismo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="4dp"
         android:background="@drawable/fundo_botao"
         android:fontFamily="@font/inknut_antiqua_medium"
         android:text="Empirismo"
@@ -88,7 +88,8 @@
         android:textSize="12dp"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRacionalismo" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRacionalismo"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/txtTitulo"
@@ -119,18 +120,18 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="204dp"
-            android:layout_height="200dp">
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/txt2"
-                android:layout_width="172dp"
-                android:layout_height="175dp"
+                android:layout_width="181dp"
+                android:layout_height="202dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/source_serif_pro"
-                android:text="@string/str_racionalismo2"
+                android:text="@string/str_empirismo2"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -204,10 +205,10 @@
 
             <TextView
                 android:id="@+id/txt4"
-                android:layout_width="151dp"
-                android:layout_height="176dp"
+                android:layout_width="156dp"
+                android:layout_height="199dp"
                 android:fontFamily="@font/source_serif_pro"
-                android:text="@string/str_racionalismo4"
+                android:text="@string/str_empirismo4"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -293,9 +294,10 @@
                 android:layout_width="355dp"
                 android:layout_height="105dp"
                 android:fontFamily="@font/source_serif_pro"
-                android:text="@string/str_empirismo1"
+                android:text="@string/str_racionalismo1"
                 android:textColor="@color/white"
                 android:textSize="16sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.457"
